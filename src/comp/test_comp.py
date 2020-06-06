@@ -7,8 +7,7 @@ def compare_humans(inp, exp):
   for i in range(len(inp)):
     if inp[i].name != exp[i].name:
       return False
-    if inp[i].age != exp[i].age:
-      return False
+    if inp[i].age != exp[i].age:clear
   return True
 
 class CompTests(unittest.TestCase):
